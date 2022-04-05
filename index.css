@@ -1,0 +1,21 @@
+img{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    image-rendering: auto;
+    border-image: auto;
+
+}
+*{
+    background-color: (cornflowerblue white cyan);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    border: 5PX cadetblue solid;
+
+}
+.n{
+    width: 50;
+    height: 50;
+}

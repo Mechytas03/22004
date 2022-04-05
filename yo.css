@@ -1,0 +1,43 @@
+*{
+    background-color: rgb(157, 240, 240);
+    position: relative;
+    padding: auto;
+}
+h1{
+    color: coral;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+h2{
+    color: darkred;
+
+}
+h3{
+    color: rgb(34, 58, 192);
+}
+h5{
+    color: blue;
+}
+li{
+    color: crimson;
+    position: relative;
+
+}
+p{
+    color: blueviolet;
+}
+footer{
+    color: gold;
+    
+}
+img{
+    position: relative;
+    width: 250px;
+    height: 200px;
+    border: solid 5px black;
+    margin-left: auto; 
+
+    margin-right: auto;
+
+
+}

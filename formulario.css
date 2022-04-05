@@ -1,0 +1,12 @@
+*{
+    position: relative;
+    margin:auto;
+    background-color: rgb(167, 236, 236);
+
+}
+div{
+    color: rgb(5, 49, 51);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style:solid;
+
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Peso en otro planeta</title>
+    <style type="text/css">
+      body
+      {
+          background-color: rgb(34, 136, 219);
+          color: rgb(119, 15, 122);
+          font-family: Helvetica;
+      }
+      strong
+      {
+          color: rgb(240, 12, 145);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Descrube tu peso en otros planetas que no son la tierra</h1>
+    
+      <script type="text/javascript">
+				alert("Nos tienes que dar tu peso");
+                var usauario = prompt("cual es tu peso? ");
+                var plantea = parseInt( prompt("elige tu planeta , 1 es marte, 2 es jupiter, 3 es venus, 4 es mercurio, 5 es pluton, 6 mercurio, 7 es saturno, 8 es urano"));
+                var peso = parseInt(usauario);
+                
+              
+  	var g_mercurio = 3.7;
+  	var g_venus = 8.87;
+	var g_tierra = 9.8;
+  	var g_marte = 3.711;
+  	var g_jupiter = 28.4;
+ 	var g_saturno = 10.44;
+  	var g_urano = 8.7;
+    var g_neptuno = 11.15;
+  	var g_pluton = 0.62;
+    var peso_final;
+    
+pesoenjupiter = g_jupiter * peso / g_tierra
+pesoenjupiter = parseInt(pesoenjupiter);
+document.write("tu peso en jupiter es " + pesoenjupiter);
+
+pesoenmercurio = g_mercurio * peso / g_tierra
+pesoenmercurio = parseInt(pesoenmercurio);
+document.write("tu peso en mercurio es " + pesoenmercurio);
+
+pesoenvenus = g_venus * peso / g_tierra
+pesoenvenus = parseInt(pesoenvenus);
+document.write("tu peso en venus es " + pesoenvenus);
+
+pesoenmarte = g_marte * peso / g_tierra
+pesoenmarte = parseInt(pesoenmarte);
+document.write("tu peso en marte es " + pesoenmarte);
+
+pesoenurano = g_urano * peso / g_tierra
+pesoenurano = parseInt(pesoenurano);
+document.write("tu peso en urano es " + pesoenurano);
+
+pesoensaturno = g_saturno * peso / g_tierra
+pesoensaturno = parseInt(pesoensaturno);
+document.write("tu peso en saturno es " + pesoensaturno);
+
+pesoenpluton = g_pluton * peso / g_tierra
+pesoenpluton = parseInt(pesoenpluton);
+document.write("tu peso en pluton es " + pesoenpluton);
+
+pesoenneptuno = g_neptuno * peso / g_tierra
+pesoenneptuno = parseInt(pesoenneptuno);
+document.write("tu peso en neptuno es " + pesoenneptuno);
+
+
+
+
+  if (plantea ==1){
+      peso_final = peso * g_marte / g_tierra;
+  }
+  else if (planeta == 2) {
+      peso_final = peso * g_jupiter / g_tierra
+  }
+  else if (planeta == 3) {
+      peso_final = peso * g_mercurio / g_tierra
+  }
+  else if (planeta == 4) {
+      peso_final = peso * g_venus / g_tierra
+  }
+  else if (planeta == 5) {
+      peso_final = peso * g_neptuno / g_tierra
+  }
+  else if (planeta == 6) {
+      peso_final = peso * g_pluton / g_tierra
+  }
+  else if (planeta == 7) {
+      peso_final = peso * g_saturno / g_tierra
+  }
+  else if (planeta == 8) {
+      peso_final = peso * g_urano / g_tierra
+  }
+  else {
+      peso_final = 1000000
+  }
+  peso_final = parseInt("tu peso es <strong>");
+document.write("tu peso en " + nombre );
+
+   
+   </script>
+   <br>
+<a href="./index.html">volver</a>
+
+  </body>
+</html>
+
+

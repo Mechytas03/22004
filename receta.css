@@ -1,0 +1,70 @@
+*{
+    position: relative;
+    margin:auto;
+    background-color: rgb(169, 233, 233);
+
+}
+
+
+img{
+   border: 5px;
+   border-radius:150px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+  
+    
+}
+
+
+h4{
+    color: rgb(177, 62, 226);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3 {
+    color: deeppink;
+    font-style: italic;
+    text-align: center;
+}
+h2 {  Text-decoration: underline;
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+ol {
+    color: rgb(121, 58, 184);
+}
+
+body{
+    background-color:aqua;
+    border-style:solid;
+    
+
+}
+head{
+    background-color: coral;
+}
+
+.clasess{
+    background-color:chartreuse;
+    text-align:center;
+    margin-top: auto;
+
+
+}
+#parrafoCentral{
+    color: rgb(228, 15, 15);
+    font-size: 5px;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gold;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    display: flex;
+ justify-content: center;
+
+}

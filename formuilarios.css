@@ -1,0 +1,35 @@
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+}
+.registro{
+    width: 400px;
+    background-color: aqua;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+
+}
+.control{
+width: 100%;
+background-color: azure;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 16px;
+border: 1px solid ;
+font-size: 18px;
+
+}
+body{
+background-image: url("./pexels-cottonbro-5474296.jpg");
+margin: 0%;
+font-family: 'Times New Roman', Times, serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}

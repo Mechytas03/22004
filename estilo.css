@@ -1,0 +1,50 @@
+*{
+    background-color: rgb(150, 214, 214);
+}
+body{
+    width: 80%;
+    margin: auto;
+    color: rgb(224, 199, 165);
+
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+
+
+}
+/*
+.countainer{
+    background-color: aqua;
+    padding: 2%;
+    margin: top 4%;
+    border: solid 2%  rgb(230, 44, 130) ;
+}
+#fraseprincipal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+
+
+}
+cite{
+    color: black;
+    text-align: center;
+    text-decoration: line-through;
+}
+*/
+p{
+    color: blue;
+}
+div{
+    color: chartreuse;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+   }
+   a rhef{
+       position: absolute;
+   }
+   
