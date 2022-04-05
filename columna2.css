@@ -1,0 +1,36 @@
+.cajaroja{
+    width: 250px;
+    height: 250px;
+    border: solid 5px black;
+    background-color: red;
+    color: gold;
+    margin: auto;
+    font-size: 2en;
+    display: inline-block;
+
+}
+/*
+.cajanegra{
+    width: 250px;
+    height: 250px;
+    border: solid 5px black;
+    background-color: black;
+    color: rgb(233, 223, 225);
+    margin: auto;
+    font-size: 2em;
+    display: inline-block;
+}
+inlinir blcok
+float:left flota a la derecha ,iemtas entre
+right izquierda
+no es practico
+*/
+#negro{
+
+    border: solid 5px black;
+    background-color: black;
+    color: rgb(233, 223, 225);
+}
+*{
+    background-color: rgb(144, 223, 223);
+}

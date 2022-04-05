@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(154, 224, 224);
+    position: relative;
+
+}
+span{
+    color: crimson;
+    text-align: center;
+    
+}
+div{
+    color: blueviolet;
+    position: relative;
+}
+form{
+position: relative;
+background-color: darkgrey;
+margin: auto;
+}
+input{
+    color: blue;
+    
+}
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+   }
+   .cat {
+    height:300px;
+    width: 300px;
+   }   
